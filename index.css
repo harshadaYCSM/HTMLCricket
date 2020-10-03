@@ -1,0 +1,18 @@
+#hitBat {
+    background: round;
+    color: #bffff3;
+    background-color: maroon;
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+}
+
+#meraBall {
+    position: absolute;
+    top: 5vh;
+    left: 31px;
+}
+
+#eqContainer {
+    margin:15px;
+}
