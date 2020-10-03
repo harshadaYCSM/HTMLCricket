@@ -3,15 +3,16 @@
         <script src="index.js"></script>
         <link rel="stylesheet" href="index.css">
     </head>
-    <body>
+    <body onload="inputPlayers()">
         <div id="eqContainer">
-            <div id="meraBat"><img src="bat.png" style="height: 25px;"></div>
-            <div id="meraBall"><img src="ball.png" style="height: 8px;"></div>
+            <div id="bat"><img src="bat.png" style="height: 25px;"></div>
+            <div id="ball"><img src="ball.png" style="height: 8px;"></div>
         </div>
         <button id="hitBat" onclick="hitBat()">Hit the bat</button>
         <div id="runs"></div>
         <div id="score1"></div>
         <div id="score2"></div>
+        <div id="winner"></div>
 
     </body>
 </html>
